@@ -10,8 +10,9 @@ import logger from 'redux-logger';
 
 /** TODO: Add REDUCERS */
 
-const planeCount = (state=[], action) => {
+const planeCount = (state=['ToroKairlines', 'Spirit Airlines', 'Airlined'], action) => {
 
+    return state;
 
 }
 
